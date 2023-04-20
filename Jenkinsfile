@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("wnjenga/nodeapp")
+        app = docker.build("wnjenga/nodeapp1")
     }
 
     stage('Test image') {
